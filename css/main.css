@@ -25,9 +25,9 @@ body {
   border-width: 4px;
 }
 
-.imglogo2{
+.imglogo2 {
   width: 160px;
-    height: 57.6px;
+  height: 57.6px;
 }
 
 .best_choice {
@@ -1194,13 +1194,24 @@ footer .footer-cont .nav-foot a {
     width: 100px;
     height: auto;
   }
-  .header .figure .imglogo3{
+  .header .figure .imglogo3 {
     width: 30px;
   }
 
-  .best_choice{
+  .best_choice {
     width: 30px;
     height: auto;
+  }
+
+  .content-feature ul li {
+    font-weight: bold;
+  }
+  .content-feature ul li img {
+    width: 25px;
+    margin-bottom: 15px;
+  }
+  .content-feature ul li:last-child{
+    margin-bottom: 30px;
   }
 }
 
