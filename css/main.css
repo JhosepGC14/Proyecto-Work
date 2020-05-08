@@ -947,7 +947,6 @@ footer .footer-cont .nav-foot a {
 @media (max-width: 850px) {
   .title-1 {
     width: 50%;
-    padding-right: 21px !important;
   }
 
   .ra-control a.item {
@@ -956,7 +955,7 @@ footer .footer-cont .nav-foot a {
 
   .section1 {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
@@ -1269,5 +1268,12 @@ footer .footer-cont .nav-foot a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .text-section2 {
+    text-align: center;
+  }
+  .text-section3 {
+    text-align: center;
   }
 }
