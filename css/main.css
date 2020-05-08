@@ -1210,7 +1210,7 @@ footer .footer-cont .nav-foot a {
     width: 25px;
     margin-bottom: 15px;
   }
-  .content-feature ul li:last-child{
+  .content-feature ul li:last-child {
     margin-bottom: 30px;
   }
 }
@@ -1234,51 +1234,40 @@ footer .footer-cont .nav-foot a {
   }
 }
 
-@media (max-width: 380px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-    height: auto;
+@media only screen and (max-width: 380px) and (min-width: 360px) {
+  .slider-nav {
+    display: none;
   }
-  .header img {
-    margin: 15px 0px 10px;
-  }
-  .blue-link {
-    margin: 0px 20px;
-    padding: 0px;
-  }
-  /* .slider-for img{
-    height: 200px;
-  } */
-  .top-item .date-text .title {
-    font-size: 30px;
-  }
-  .pro-bg-active {
-    font-size: 12px;
-  }
-  footer .logo-footer {
-    margin: auto;
-  }
-  footer .footer-cont .nav-foot {
-    display: flex;
-    flex-direction: column;
-  }
-  .col-nav {
+  .title-1 h1 {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
     text-align: center;
-    margin-right: 0px;
   }
-  .copyright {
+  .title-1 {
+    padding: 0;
+  }
+
+  .title-1 span {
     text-align: center;
   }
 
-  .social {
-    display: flex;
-    justify-content: space-around;
+  .text1 {
+    text-align: center;
+  }
+
+  .title-1 ul li {
+    font-size: 15px;
   }
   .button-buy2 {
-    font-size: 20px;
+    margin: auto;
   }
-  .top-item .date-text .title {
-    font-size: 28px;
+  .ofert-container {
+    width: auto;
+  }
+
+  .comment-personal {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
